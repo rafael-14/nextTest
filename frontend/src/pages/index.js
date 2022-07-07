@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-//import api from '../../services/api';
+import api from "../services/api";
 import {
     Button, TableBody, Card, Box, Toolbar, Table, TableHead, Fab,
     Typography, TableCell, CardHeader, CardContent, Container, Grid, TableRow, List, ListItem,
@@ -7,7 +7,7 @@ import {
 } from "@mui/material";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-//import { getIdSetor } from '../../services/auth';
+import { getIdSetor } from '../services/auth';
 import RemoveIcon from '@mui/icons-material/Remove';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
 

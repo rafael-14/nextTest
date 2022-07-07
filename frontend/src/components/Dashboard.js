@@ -5,8 +5,8 @@ import MuiAppBar from '@mui/material/AppBar';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import { mainListItems } from '../components/listItems';
-//import api from '../../services/api';
-//import { getToken, logout } from '../../services/auth';
+import api from '../services/api';
+import { getToken, logout } from '../services/auth';
 
 const drawerWidth = 240;
 
