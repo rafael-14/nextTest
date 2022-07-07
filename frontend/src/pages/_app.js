@@ -98,10 +98,10 @@ export default function MyApp({ Component, pageProps }) {
       {!redirect ?
         <Box sx={{ display: 'flex' }}>
           <CssBaseline />
-          <AppBar position="absolute" style={{ background: '#E8927C' }} open={open}>
+          <AppBar position="fixed" style={{ background: '#E8927C' }} open={open}>
             <Toolbar
               sx={{
-                pr: '24px', // keep right padding when drawer closed
+                pr: '24px',
               }}
             >
               <IconButton
