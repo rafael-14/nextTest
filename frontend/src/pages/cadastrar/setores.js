@@ -21,7 +21,7 @@ export default function CadastrarSetores() {
       progress: undefined,
       onClose: () => {
         setProgress(false)
-          (!manyRegisters ? window.location.href = "/setores" : null)
+          (!manyRegisters ? window.location.href = "/listar/setores" : null)
       },
       onOpen: () => {
         setProgress(true)
@@ -171,7 +171,7 @@ export default function CadastrarSetores() {
                       background: '#E74C3C',
                       color: "#FFFFFF"
                     }}
-                    href="/setores"
+                    href="/listar/setores"
                   >
                     Cancelar
                   </Button>

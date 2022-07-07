@@ -21,7 +21,7 @@ export default function CadastrarUsuarios() {
       progress: undefined,
       onClose: () => {
         setProgress(false)
-          (!manyRegisters ? window.location.href = "/usuarios" : null)
+          (!manyRegisters ? window.location.href = "/listar/usuarios" : null)
       },
       onOpen: () => {
         setProgress(true)
@@ -223,7 +223,7 @@ export default function CadastrarUsuarios() {
                     background: '#E74C3C',
                     color: "#FFFFFF"
                   }}
-                  href="/usuarios"
+                  href="/listar/usuarios"
                 >
                   Cancelar
                 </Button>

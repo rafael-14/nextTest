@@ -23,7 +23,7 @@ export default function CadastrarUsuarios() {
       progress: undefined,
       onClose: () => {
         setProgress(false)
-          (!manyOrders ? window.location.href = "/pedidos" : setOrderProducts([]))
+          (!manyOrders ? window.location.href = "/listar/pedidos" : setOrderProducts([]))
       },
       onOpen: () => setProgress(true)
     })
@@ -242,7 +242,7 @@ export default function CadastrarUsuarios() {
             >
               {!progress ?
                 (<>
-                  <Button variant="contained" style={{ background: '#E74C3C', color: "#FFFFFF" }} href="/pedidos">
+                  <Button variant="contained" style={{ background: '#E74C3C', color: "#FFFFFF" }} href="/listar/pedidos">
                     Cancelar
                   </Button>
                   {orderProductsLength > 0 ?
