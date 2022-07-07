@@ -3,8 +3,8 @@ import {
   Avatar, Button, TextField, Box, Typography, Container
 } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-//import api from '../../services/api';
-//import { setIdSetor, login } from '../../services/auth';
+import api from '../services/api';
+import { setIdSetor, login } from '../services/auth';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

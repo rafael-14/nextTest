@@ -1,5 +1,9 @@
+import Login from "./login"
+
 export default function Test() {
     return (
-        <h1>teste test</h1>
+        <>
+            <Login />
+        </>
     )
 }
